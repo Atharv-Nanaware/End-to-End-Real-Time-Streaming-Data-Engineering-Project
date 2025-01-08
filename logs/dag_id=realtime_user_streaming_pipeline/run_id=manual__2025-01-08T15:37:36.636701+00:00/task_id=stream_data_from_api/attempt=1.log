@@ -1,0 +1,143 @@
+[2025-01-08T15:37:37.863+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-01-08T15:37:37.884+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: realtime_user_streaming_pipeline.stream_data_from_api manual__2025-01-08T15:37:36.636701+00:00 [queued]>
+[2025-01-08T15:37:37.887+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: realtime_user_streaming_pipeline.stream_data_from_api manual__2025-01-08T15:37:36.636701+00:00 [queued]>
+[2025-01-08T15:37:37.888+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 4
+[2025-01-08T15:37:37.893+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): stream_data_from_api> on 2025-01-08 15:37:36.636701+00:00
+[2025-01-08T15:37:37.898+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=296) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-01-08T15:37:37.897+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'realtime_user_streaming_pipeline', 'stream_data_from_api', 'manual__2025-01-08T15:37:36.636701+00:00', '--job-id', '21', '--raw', '--subdir', 'DAGS_FOLDER/realtime_streaming.py', '--cfg-path', '/tmp/tmpg2fxfqpi']
+[2025-01-08T15:37:37.899+0000] {standard_task_runner.py:64} INFO - Started process 297 to run task
+[2025-01-08T15:37:37.899+0000] {standard_task_runner.py:91} INFO - Job 21: Subtask stream_data_from_api
+[2025-01-08T15:37:37.925+0000] {task_command.py:426} INFO - Running <TaskInstance: realtime_user_streaming_pipeline.stream_data_from_api manual__2025-01-08T15:37:36.636701+00:00 [running]> on host c9d056dd0ec3
+[2025-01-08T15:37:37.966+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data_engineer' AIRFLOW_CTX_DAG_ID='realtime_user_streaming_pipeline' AIRFLOW_CTX_TASK_ID='stream_data_from_api' AIRFLOW_CTX_EXECUTION_DATE='2025-01-08T15:37:36.636701+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-08T15:37:36.636701+00:00'
+[2025-01-08T15:37:37.966+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-01-08T15:37:37.975+0000] {conn.py:362} INFO - <BrokerConnection node_id=bootstrap-0 host=broker:9092 <connecting> [IPv4 ('172.18.0.10', 9092)]>: connecting to broker:9092 [('172.18.0.10', 9092) IPv4]
+[2025-01-08T15:37:37.975+0000] {conn.py:957} INFO - Probing node bootstrap-0 broker version
+[2025-01-08T15:37:37.976+0000] {conn.py:393} INFO - <BrokerConnection node_id=bootstrap-0 host=broker:9092 <connecting> [IPv4 ('172.18.0.10', 9092)]>: Connection complete.
+[2025-01-08T15:37:38.080+0000] {conn.py:1019} INFO - Broker version identified as 2.6.0
+[2025-01-08T15:37:38.080+0000] {conn.py:1020} INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+[2025-01-08T15:37:38.850+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:37:38.853+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:37:38.866+0000] {conn.py:362} INFO - <BrokerConnection node_id=1 host=broker:9092 <connecting> [IPv4 ('172.18.0.10', 9092)]>: connecting to broker:9092 [('172.18.0.10', 9092) IPv4]
+[2025-01-08T15:37:38.867+0000] {conn.py:393} INFO - <BrokerConnection node_id=1 host=broker:9092 <connecting> [IPv4 ('172.18.0.10', 9092)]>: Connection complete.
+[2025-01-08T15:37:38.869+0000] {conn.py:673} INFO - <BrokerConnection node_id=bootstrap-0 host=broker:9092 <connected> [IPv4 ('172.18.0.10', 9092)]>: Closing connection. 
+[2025-01-08T15:37:41.104+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:37:41.106+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:37:43.643+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:37:43.650+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:37:45.400+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:37:45.402+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:37:48.078+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:37:48.080+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:37:49.736+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:37:49.739+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:37:52.260+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:37:52.261+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:37:54.440+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:37:54.443+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:37:56.001+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:37:56.003+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:37:58.432+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:37:58.439+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:38:00.962+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:38:00.965+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:38:02.672+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:38:02.673+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:38:04.301+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:38:04.302+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:38:06.312+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:38:06.315+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:38:07.837+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:38:07.839+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:38:09.347+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:38:09.348+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:38:12.083+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:38:12.085+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:38:14.697+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:38:14.699+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:38:16.909+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:38:16.914+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:38:19.713+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:38:19.717+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:38:20.981+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:38:20.983+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:38:22.639+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:38:22.640+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:38:23.813+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:38:23.814+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:38:26.466+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:38:26.467+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:38:28.381+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:38:28.384+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:38:29.796+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:38:29.803+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:38:32.221+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:38:32.222+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:38:34.158+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:38:34.160+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:38:36.806+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:38:36.810+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:38:39.095+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:38:39.103+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:38:41.160+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:38:41.161+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:38:43.480+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:38:43.481+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:38:45.287+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:38:45.289+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:38:46.861+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:38:46.862+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:38:48.280+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:38:48.281+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:38:51.014+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:38:51.019+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:38:53.714+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:38:53.716+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:38:56.387+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:38:56.389+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:38:58.531+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:38:58.533+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:39:00.240+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:39:00.241+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:39:02.700+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:39:02.703+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:39:04.624+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:39:04.627+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:39:07.162+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:39:07.164+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:39:09.562+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:39:09.564+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:39:11.470+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:39:11.472+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:39:13.228+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:39:13.233+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:39:14.720+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:39:14.722+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:39:17.642+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:39:17.646+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:39:19.527+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:39:19.529+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:39:21.602+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:39:21.603+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:39:22.990+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:39:22.997+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:39:24.975+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:39:24.977+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:39:27.379+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:39:27.380+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:39:30.046+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:39:30.048+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:39:31.554+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:39:31.555+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:39:33.794+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:39:33.796+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:39:36.238+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:39:36.239+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:39:38.395+0000] {realtime_streaming.py:24} INFO - Data fetched successfully from API.
+[2025-01-08T15:39:38.398+0000] {realtime_streaming.py:48} INFO - Data formatted successfully.
+[2025-01-08T15:39:39.637+0000] {conn.py:673} INFO - <BrokerConnection node_id=1 host=broker:9092 <connected> [IPv4 ('172.18.0.10', 9092)]>: Closing connection. 
+[2025-01-08T15:39:39.643+0000] {python.py:237} INFO - Done. Returned value was: None
+[2025-01-08T15:39:39.648+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-01-08T15:39:39.693+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=realtime_user_streaming_pipeline, task_id=stream_data_from_api, run_id=manual__2025-01-08T15:37:36.636701+00:00, execution_date=20250108T153736, start_date=20250108T153737, end_date=20250108T153939
+[2025-01-08T15:39:39.722+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2025-01-08T15:39:39.744+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-01-08T15:39:39.745+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
