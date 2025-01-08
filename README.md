@@ -51,6 +51,7 @@ UI for Monitoring: Includes Kafka's monitoring UI for stream visualization.
 
     git clone https://github.com/Atharv-Nanaware/End-to-End-Real-Time-Streaming-Data-Engineering-Project.git
 
+
 2. #### Navigate to the Project Directory
 
    Move into the project directory:
@@ -65,6 +66,7 @@ UI for Monitoring: Includes Kafka's monitoring UI for stream visualization.
 
 
     docker-compose up airflow-init
+
 
 4. #### Run Docker Compose again to spin up the services:
 
@@ -90,7 +92,7 @@ UI for Monitoring: Includes Kafka's monitoring UI for stream visualization.
 
 #### Check Kafka Topics & UI :
 
-Visit the Kafka UI (if configured in docker-compose.yml) at http://localhost:9021 for monitoring the Kafka topics and messages.
+Visit the Kafka UI (if configured in docker-compose.yml) at http://localhost:8085 for monitoring the Kafka topics and messages.
 
 #### Monitor Spark Jobs
 
