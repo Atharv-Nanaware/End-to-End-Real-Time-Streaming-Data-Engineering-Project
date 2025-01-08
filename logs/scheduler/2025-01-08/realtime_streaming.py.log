@@ -1,0 +1,53 @@
+[2025-01-08T14:31:49.972+0000] {processor.py:161} INFO - Started process (PID=199) to work on /opt/airflow/dags/realtime_streaming.py
+[2025-01-08T14:31:49.974+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/realtime_streaming.py for tasks to queue
+[2025-01-08T14:31:49.978+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:31:49.978+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_streaming.py
+[2025-01-08T14:31:50.514+0000] {processor.py:840} INFO - DAG(s) 'realtime_user_streaming_pipeline' retrieved from /opt/airflow/dags/realtime_streaming.py
+[2025-01-08T14:31:51.315+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:31:51.310+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:realtime_user_streaming_pipeline
+[2025-01-08T14:31:51.346+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:31:51.345+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:realtime_user_streaming_pipeline
+[2025-01-08T14:31:51.366+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:31:51.365+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:realtime_user_streaming_pipeline
+[2025-01-08T14:31:51.368+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:31:51.367+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-01-08T14:31:51.392+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:31:51.391+0000] {dag.py:3111} INFO - Creating ORM DAG for realtime_user_streaming_pipeline
+[2025-01-08T14:31:51.409+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:31:51.409+0000] {dag.py:3947} INFO - Setting next_dagrun for realtime_user_streaming_pipeline to 2025-01-07 00:00:00+00:00, run_after=2025-01-08 00:00:00+00:00
+[2025-01-08T14:31:51.436+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/realtime_streaming.py took 1.485 seconds
+[2025-01-08T14:32:21.779+0000] {processor.py:161} INFO - Started process (PID=210) to work on /opt/airflow/dags/realtime_streaming.py
+[2025-01-08T14:32:21.781+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/realtime_streaming.py for tasks to queue
+[2025-01-08T14:32:21.785+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:32:21.784+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_streaming.py
+[2025-01-08T14:32:21.918+0000] {processor.py:840} INFO - DAG(s) 'realtime_user_streaming_pipeline' retrieved from /opt/airflow/dags/realtime_streaming.py
+[2025-01-08T14:32:21.932+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:32:21.931+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-01-08T14:32:21.946+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:32:21.946+0000] {dag.py:3947} INFO - Setting next_dagrun for realtime_user_streaming_pipeline to 2025-01-07 00:00:00+00:00, run_after=2025-01-08 00:00:00+00:00
+[2025-01-08T14:32:21.956+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/realtime_streaming.py took 0.188 seconds
+[2025-01-08T14:32:52.127+0000] {processor.py:161} INFO - Started process (PID=224) to work on /opt/airflow/dags/realtime_streaming.py
+[2025-01-08T14:32:52.129+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/realtime_streaming.py for tasks to queue
+[2025-01-08T14:32:52.132+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:32:52.132+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_streaming.py
+[2025-01-08T14:32:52.228+0000] {processor.py:840} INFO - DAG(s) 'realtime_user_streaming_pipeline' retrieved from /opt/airflow/dags/realtime_streaming.py
+[2025-01-08T14:32:52.321+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:32:52.321+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-01-08T14:32:52.334+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:32:52.333+0000] {dag.py:3947} INFO - Setting next_dagrun for realtime_user_streaming_pipeline to 2025-01-08 00:00:00+00:00, run_after=2025-01-09 00:00:00+00:00
+[2025-01-08T14:32:52.342+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/realtime_streaming.py took 0.229 seconds
+[2025-01-08T14:33:22.444+0000] {processor.py:161} INFO - Started process (PID=235) to work on /opt/airflow/dags/realtime_streaming.py
+[2025-01-08T14:33:22.445+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/realtime_streaming.py for tasks to queue
+[2025-01-08T14:33:22.449+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:33:22.448+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_streaming.py
+[2025-01-08T14:33:22.526+0000] {processor.py:840} INFO - DAG(s) 'realtime_user_streaming_pipeline' retrieved from /opt/airflow/dags/realtime_streaming.py
+[2025-01-08T14:33:22.549+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:33:22.549+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-01-08T14:33:22.561+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:33:22.561+0000] {dag.py:3947} INFO - Setting next_dagrun for realtime_user_streaming_pipeline to 2025-01-08 00:00:00+00:00, run_after=2025-01-09 00:00:00+00:00
+[2025-01-08T14:33:22.569+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/realtime_streaming.py took 0.133 seconds
+[2025-01-08T14:33:52.872+0000] {processor.py:161} INFO - Started process (PID=246) to work on /opt/airflow/dags/realtime_streaming.py
+[2025-01-08T14:33:52.873+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/realtime_streaming.py for tasks to queue
+[2025-01-08T14:33:52.877+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:33:52.876+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_streaming.py
+[2025-01-08T14:33:53.006+0000] {processor.py:840} INFO - DAG(s) 'realtime_user_streaming_pipeline' retrieved from /opt/airflow/dags/realtime_streaming.py
+[2025-01-08T14:33:53.044+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:33:53.044+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-01-08T14:33:53.064+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:33:53.064+0000] {dag.py:3947} INFO - Setting next_dagrun for realtime_user_streaming_pipeline to 2025-01-08 00:00:00+00:00, run_after=2025-01-09 00:00:00+00:00
+[2025-01-08T14:33:53.073+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/realtime_streaming.py took 0.214 seconds
+[2025-01-08T14:34:23.243+0000] {processor.py:161} INFO - Started process (PID=257) to work on /opt/airflow/dags/realtime_streaming.py
+[2025-01-08T14:34:23.244+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/realtime_streaming.py for tasks to queue
+[2025-01-08T14:34:23.247+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:34:23.247+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_streaming.py
+[2025-01-08T14:34:23.340+0000] {processor.py:840} INFO - DAG(s) 'realtime_user_streaming_pipeline' retrieved from /opt/airflow/dags/realtime_streaming.py
+[2025-01-08T14:34:23.369+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:34:23.369+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-01-08T14:34:23.388+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:34:23.388+0000] {dag.py:3947} INFO - Setting next_dagrun for realtime_user_streaming_pipeline to 2025-01-08 00:00:00+00:00, run_after=2025-01-09 00:00:00+00:00
+[2025-01-08T14:34:23.403+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/realtime_streaming.py took 0.175 seconds
+[2025-01-08T14:34:53.751+0000] {processor.py:161} INFO - Started process (PID=268) to work on /opt/airflow/dags/realtime_streaming.py
+[2025-01-08T14:34:53.753+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/realtime_streaming.py for tasks to queue
+[2025-01-08T14:34:53.759+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:34:53.758+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_streaming.py
+[2025-01-08T14:34:53.883+0000] {processor.py:840} INFO - DAG(s) 'realtime_user_streaming_pipeline' retrieved from /opt/airflow/dags/realtime_streaming.py
+[2025-01-08T14:34:53.954+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:34:53.954+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-01-08T14:34:53.987+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:34:53.986+0000] {dag.py:3947} INFO - Setting next_dagrun for realtime_user_streaming_pipeline to 2025-01-08 00:00:00+00:00, run_after=2025-01-09 00:00:00+00:00
+[2025-01-08T14:34:54.006+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/realtime_streaming.py took 0.271 seconds

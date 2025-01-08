@@ -1,0 +1,186 @@
+[2025-01-08T14:16:55.669+0000] {processor.py:161} INFO - Started process (PID=193) to work on /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+[2025-01-08T14:16:55.672+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py for tasks to queue
+[2025-01-08T14:16:55.674+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:16:55.674+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+[2025-01-08T14:16:55.691+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:16:55.687+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/realtime_user_streaming_pipeline_dag.py", line 4, in <module>
+    from dags.tasks.stream_data import stream_data
+ModuleNotFoundError: No module named 'dags'
+[2025-01-08T14:16:55.691+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+[2025-01-08T14:16:55.721+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py took 0.056 seconds
+[2025-01-08T14:17:26.374+0000] {processor.py:161} INFO - Started process (PID=204) to work on /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+[2025-01-08T14:17:26.375+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py for tasks to queue
+[2025-01-08T14:17:26.380+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:17:26.379+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+[2025-01-08T14:17:26.388+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:17:26.385+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/realtime_user_streaming_pipeline_dag.py", line 4, in <module>
+    from dags.tasks.stream_data import stream_data
+ModuleNotFoundError: No module named 'dags'
+[2025-01-08T14:17:26.389+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+[2025-01-08T14:17:26.414+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py took 0.051 seconds
+[2025-01-08T14:17:56.709+0000] {processor.py:161} INFO - Started process (PID=215) to work on /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+[2025-01-08T14:17:56.710+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py for tasks to queue
+[2025-01-08T14:17:56.713+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:17:56.712+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+[2025-01-08T14:17:56.719+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:17:56.718+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/realtime_user_streaming_pipeline_dag.py", line 4, in <module>
+    from dags.tasks.stream_data import stream_data
+ModuleNotFoundError: No module named 'dags'
+[2025-01-08T14:17:56.720+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+[2025-01-08T14:17:56.741+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py took 0.040 seconds
+[2025-01-08T14:18:27.090+0000] {processor.py:161} INFO - Started process (PID=226) to work on /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+[2025-01-08T14:18:27.091+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py for tasks to queue
+[2025-01-08T14:18:27.093+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:18:27.093+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+[2025-01-08T14:18:27.098+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:18:27.097+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/realtime_user_streaming_pipeline_dag.py", line 4, in <module>
+    from dags.tasks.stream_data import stream_data
+ModuleNotFoundError: No module named 'dags'
+[2025-01-08T14:18:27.098+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+[2025-01-08T14:18:27.117+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py took 0.035 seconds
+[2025-01-08T14:18:30.192+0000] {processor.py:161} INFO - Started process (PID=237) to work on /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+[2025-01-08T14:18:30.193+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py for tasks to queue
+[2025-01-08T14:18:30.197+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:18:30.196+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+[2025-01-08T14:18:30.241+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:18:30.223+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/realtime_user_streaming_pipeline_dag.py", line 4, in <module>
+    from dags.tasks.stream_data import stream_data
+ModuleNotFoundError: No module named 'dags'
+[2025-01-08T14:18:30.241+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+[2025-01-08T14:18:30.309+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py took 0.126 seconds
+[2025-01-08T14:19:00.512+0000] {processor.py:161} INFO - Started process (PID=248) to work on /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+[2025-01-08T14:19:00.513+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py for tasks to queue
+[2025-01-08T14:19:00.520+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:19:00.520+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+[2025-01-08T14:19:00.528+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:19:00.527+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/realtime_user_streaming_pipeline_dag.py", line 4, in <module>
+    from dags.tasks.stream_data import stream_data
+ModuleNotFoundError: No module named 'dags'
+[2025-01-08T14:19:00.528+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+[2025-01-08T14:19:00.554+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py took 0.050 seconds
+[2025-01-08T14:19:30.957+0000] {processor.py:161} INFO - Started process (PID=259) to work on /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+[2025-01-08T14:19:30.961+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py for tasks to queue
+[2025-01-08T14:19:30.965+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:19:30.965+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+[2025-01-08T14:19:30.977+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:19:30.975+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/realtime_user_streaming_pipeline_dag.py", line 4, in <module>
+    from dags.tasks.stream_data import stream_data
+ModuleNotFoundError: No module named 'dags'
+[2025-01-08T14:19:30.977+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+[2025-01-08T14:19:31.003+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py took 0.060 seconds
+[2025-01-08T14:20:01.230+0000] {processor.py:161} INFO - Started process (PID=270) to work on /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+[2025-01-08T14:20:01.231+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py for tasks to queue
+[2025-01-08T14:20:01.234+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:20:01.234+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+[2025-01-08T14:20:01.239+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:20:01.238+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/realtime_user_streaming_pipeline_dag.py", line 4, in <module>
+    from dags.tasks.stream_data import stream_data
+ModuleNotFoundError: No module named 'dags'
+[2025-01-08T14:20:01.239+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+[2025-01-08T14:20:01.262+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py took 0.041 seconds
+[2025-01-08T14:20:21.414+0000] {processor.py:161} INFO - Started process (PID=275) to work on /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+[2025-01-08T14:20:21.415+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py for tasks to queue
+[2025-01-08T14:20:21.420+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:20:21.419+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+[2025-01-08T14:20:21.427+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:20:21.426+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/realtime_user_streaming_pipeline_dag.py", line 4, in <module>
+    from dags.tasks.stream_data import stream_data
+ModuleNotFoundError: No module named 'dags'
+[2025-01-08T14:20:21.427+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+[2025-01-08T14:20:21.451+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py took 0.044 seconds
+[2025-01-08T14:20:51.788+0000] {processor.py:161} INFO - Started process (PID=286) to work on /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+[2025-01-08T14:20:51.790+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py for tasks to queue
+[2025-01-08T14:20:51.793+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:20:51.792+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+[2025-01-08T14:20:51.800+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:20:51.799+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/realtime_user_streaming_pipeline_dag.py", line 4, in <module>
+    from dags.tasks.stream_data import stream_data
+ModuleNotFoundError: No module named 'dags'
+[2025-01-08T14:20:51.801+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+[2025-01-08T14:20:51.823+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py took 0.046 seconds
+[2025-01-08T14:21:22.150+0000] {processor.py:161} INFO - Started process (PID=297) to work on /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+[2025-01-08T14:21:22.152+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py for tasks to queue
+[2025-01-08T14:21:22.156+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:21:22.155+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+[2025-01-08T14:21:22.163+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:21:22.161+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/realtime_user_streaming_pipeline_dag.py", line 4, in <module>
+    from dags.tasks.stream_data import stream_data
+ModuleNotFoundError: No module named 'dags'
+[2025-01-08T14:21:22.163+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+[2025-01-08T14:21:22.190+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py took 0.048 seconds
+[2025-01-08T14:21:48.498+0000] {processor.py:161} INFO - Started process (PID=308) to work on /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+[2025-01-08T14:21:48.499+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py for tasks to queue
+[2025-01-08T14:21:48.506+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:21:48.505+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+[2025-01-08T14:21:49.158+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:21:49.157+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/realtime_user_streaming_pipeline_dag.py", line 4, in <module>
+    from tasks.stream_data import stream_data
+  File "/opt/airflow/dags/tasks/stream_data.py", line 6, in <module>
+    from dags.tasks.get_data import get_data
+ModuleNotFoundError: No module named 'dags'
+[2025-01-08T14:21:49.159+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+[2025-01-08T14:21:49.178+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py took 0.687 seconds
+[2025-01-08T14:22:19.514+0000] {processor.py:161} INFO - Started process (PID=319) to work on /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+[2025-01-08T14:22:19.518+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py for tasks to queue
+[2025-01-08T14:22:19.521+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:22:19.521+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+[2025-01-08T14:22:19.602+0000] {logging_mixin.py:188} INFO - [2025-01-08T14:22:19.601+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/realtime_user_streaming_pipeline_dag.py", line 4, in <module>
+    from tasks.stream_data import stream_data
+  File "/opt/airflow/dags/tasks/stream_data.py", line 6, in <module>
+    from dags.tasks.get_data import get_data
+ModuleNotFoundError: No module named 'dags'
+[2025-01-08T14:22:19.603+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py
+[2025-01-08T14:22:19.621+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/realtime_user_streaming_pipeline_dag.py took 0.118 seconds
